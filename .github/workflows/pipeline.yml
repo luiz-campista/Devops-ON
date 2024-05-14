@@ -120,7 +120,7 @@ jobs:
     if: github.ref == 'refs/heads/release'
     environment:
       name: pre
-    needs: publish
+    needs: build
     steps:
       - name: Deploy 
         shell: bash
