@@ -10,4 +10,8 @@ class DemoApplicationTests {
 	void contextLoads() {
 		assert(true);
 	}
+	@GetMapping("/autoglass")
+	String autoglass(){
+		return "Pagina da Autoglass";
+	}
 }
