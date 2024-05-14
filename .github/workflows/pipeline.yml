@@ -157,7 +157,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     environment:
       name: prod
-    needs: publish
+    needs: build
     steps:
       - name: Deploy 
         shell: bash
