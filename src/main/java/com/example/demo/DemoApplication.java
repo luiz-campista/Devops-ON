@@ -52,5 +52,10 @@ public class DemoApplication {
 		return "Zumbi";
 	}
 	
+	@GetMapping("/autoglass")
+	String autoglass(){
+		return "Pagina da Autoglass";
+	}
+	
 
 }	
