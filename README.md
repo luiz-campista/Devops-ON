@@ -1,5 +1,5 @@
 # Devops
 
 
-Versao Prod 2.5
+Versao Prod 2.6
 
