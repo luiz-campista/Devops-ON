@@ -203,8 +203,8 @@ jobs:
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          aws_access_key: ${{ secrets.AWS_ACCOUNT_ID }}
-          aws_secret_key: ${{ secrets.AWS_ACCOUNT_KEY }}
+          aws_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_secret_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           wait_for_environment_recovery: 90
           use_existing_version_if_available: false
           application_name: DevopsFiap-on
